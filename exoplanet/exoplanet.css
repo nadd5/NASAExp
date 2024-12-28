@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b1a34;
+    color: #200332;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: url('D:/web/assets/22.png') no-repeat center center fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010f25;
+    padding: 15px 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #101f38;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.exoplanet-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.exoplanet-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #101f38;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.exoplanet-card:hover {
+    transform: scale(1.05);
+}
+
+.exoplanet-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.exoplanet-card p {
+    font-size: 1em;
+    color: #101f38;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:#0b1a34;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}

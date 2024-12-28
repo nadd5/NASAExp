@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b1a34;
+    color: #fff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #010f25;
+    padding: 15px 0;
+    top: 0;
+    z-index: 1000; 
+}
+
+.navbar .nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    display: inline; 
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1.5rem; 
+}
+
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 10px 15px; 
+    transition: background 0.3s; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.navbar a:hover {
+    background-color: #101f38; 
+    border-radius: 5px; 
+}
+
+.logo img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#neo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.neo-tab {
+    background: #2c2c2c;
+    color:  #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.neo-tab:hover {
+    transform: scale(1.05);
+    box-shadow:  #123456;
+}
+
+.neo-tab.active {
+    box-shadow:  #123456;}
+
+.neo-tab-details {
+    background-color: #1c1c1c;
+    color: #d3d3d3;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:#0b1a34;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore NASA APIs with APOD, Mars Rover, NEO, and more.">
+    <title>NASA Explorer</title>
+    <link rel="stylesheet" href="D:/web/home/styleh.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo" onclick="window.location.href='D:/web/home/home.html'">
+            <img src="D:/web/assets/logo.png" alt="NASA Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="D:\web\apod\apod.html">Astronomy Picture of the Day</a></li>
+            <li><a href="D:\web\mars-rover\mars-rover.html">Mars Rover Photos</a></li>
+            <li><a href="D:\web\neo\neo.html">Near-Earth Objects</a></li>
+            <li><a href="D:\web\epic\epic.html">EPIC Earth Images</a></li>
+            <li><a href="D:\web\exoplanet\exoplanet.html">Exoplanet Archive</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-section">
+        <h1>Explore the Universe with NASA's Data</h1>
+        <p>Discover the wonders of space through real-time data, stunning imagery, and the latest astronomical updates.
+        </p>
+        <div class="animated-rocket" onclick="window.location.href='D:/web/apod/apod.html'">
+            <img src="D:/web/assets/rocketani.png">
+        </div>
+    </header>
+
+    <section class="api-section">
+        <div class="api-card">
+            <img id="apod-image" src="D:/web/assets/img/loading.gif" alt="APOD Image">
+            <button class="rounded-button" onclick="window.location.href='D:/web/apod/apod.html'">View APOD</button>
+        </div>
+
+        <div class="api-card">
+            <img id="mars-rover-image" src="D:/web/assets/img/loading.gif" alt="Mars Rover Image">
+            <button class="rounded-button" onclick="window.location.href='D:/web/mars-rover/mars-rover.html'">View Mars
+                Rover</button>
+        </div>
+
+        <div class="api-card">
+            <img id="neo-image" src="D:\web\assets\neo.jpg" alt="NEO Image">
+            <button class="rounded-button" onclick="window.location.href='D:/web/neo/neo.html'">View NEO</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NASA Explorer. <a href="D:/web/home/about.html">About Us</a></p>
+    </footer>
+
+    <script src="D:/web/home/home.js"></script>
+    <script src="D:/web/home/api.js"></script>
+</body>
+
+</html>
