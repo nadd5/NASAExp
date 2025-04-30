@@ -1,4 +1,4 @@
-## 💡 Project Name: NASA Explorer V2
+## 💡 Project Name: NASA Explorer Website
 ### 📌 Description:
 A NASA photo explorer using NASA APIs
 
